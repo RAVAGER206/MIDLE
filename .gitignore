@@ -12,9 +12,9 @@ while (i > 0){
 g = i % 10;
 nch = nch * 10 + g;
 i = i / 10;
-    }
-     return nch;
- }
+}
+return nch;
+}
 
 int itc_min_num(long long a){
 int g, h, l;
@@ -33,6 +33,8 @@ a = a / 10;
 }
 return g;
 }
+
+
 int itc_rev_num(long long a){
 int g, rc, l;
 rc = 0;
@@ -53,6 +55,8 @@ if (l < 0)
 rc = rc * (-1);
 return itc_len_num(rc);
 }
+
+
 int itc_null_count(long long a){
 if (a == 0)
 return 1;
