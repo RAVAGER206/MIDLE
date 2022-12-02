@@ -12,9 +12,9 @@ while (i > 0){
 g = i % 10;
 nch = nch * 10 + g;
 i = i / 10;
-}
-return nch;
-}
+    }
+     return nch;
+ }
 
 int itc_min_num(long long a){
 int g, h, l;
