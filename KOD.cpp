@@ -16,6 +16,7 @@ i = i / 10;
 return nch;
 }
 
+
 int itc_min_num(long long a){
 int g, h, l;
 g = 10;
@@ -72,4 +73,35 @@ g = g * 0;
 a = a / 10;
 }
 return h;
+}
+
+
+bool itc_mirror_num(long long a)
+{
+if (a >= 0)
+{
+long long nch, g;
+nch = perevorot(a);
+if (nch == a * (-1) || nch == a)
+return 1;
+}
+return 0;
+}
+
+
+int itc_mirror_count(long long a)
+{
+int b, i;
+b = 0;
+if(a > 0)
+{
+i = 1;
+while (i <= a)
+{
+if (itc_mirror_num(i))
+b = b + 1;
+i = i + 1;
+}
+}
+return b;
 }
