@@ -13,4 +13,14 @@ bool itc_mirror_num(long long a);
 
 int itc_mirror_count(long long a);
 
+void itc_num_print(long a);
+
+int itc_len_num(long long a);
+
+int itc_sum_num(long long a);
+
+long long itc_multi_num(long long a);
+
+int itc_max_num(long long a);
+
 #endif
