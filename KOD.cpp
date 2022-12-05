@@ -3,12 +3,12 @@
 
 using namespace std;
 
-void itc_num_print(long a){
+void itc_num_print(long a){ // 1
 cout << a;
 }
 
 
-int itc_len_num(long long a){
+int itc_len_num(long long a){ // 2
 int g;
 g = 0;
 if (a == 0)
@@ -23,7 +23,7 @@ return g;
 }
 
 
-int itc_sum_num(long long a){
+int itc_sum_num(long long a){ // 3
 int g, sc;
 sc = 0;
 if (a < 0)
@@ -37,7 +37,7 @@ return sc;
 }
 
 
-long long itc_multi_num(long long a){
+long long itc_multi_num(long long a){ // 4
 long long g, pc;
 pc = 1;
 if (a < 0)
@@ -51,7 +51,7 @@ return pc;
 }
 
 
-int itc_max_num(long long a){
+int itc_max_num(long long a){ // 5
 int g, h;
 g = 0;
 if (a < 0)
@@ -66,7 +66,7 @@ return g;
 }
 
 
-long long pere(long long i){
+long long pere(long long i){ // 6
 long long g, nch;
 nch = 0;
 if (i < 0)
@@ -80,7 +80,7 @@ return nch;
 }
 
 
-int itc_min_num(long long a){
+int itc_min_num(long long a){ // 7
 int g, h, l;
 g = 10;
 if (a == 0)
@@ -98,7 +98,7 @@ return g;
 }
 
 
-int itc_rev_num(long long a){
+int itc_rev_num(long long a){ // 8
 int g, rc, l;
 rc = 0;
 l = a;
@@ -120,7 +120,7 @@ return itc_len_num(rc);
 }
 
 
-int itc_null_count(long long a){
+int itc_null_count(long long a){ // 9
 if (a == 0)
 return 1;
 int g, h;
@@ -138,7 +138,7 @@ return h;
 }
 
 
-bool itc_mirror_num(long long a){
+bool itc_mirror_num(long long a){ // 10
 if (a >= 0){
 long long nch, g;
 nch = perevorot(a);
@@ -149,7 +149,7 @@ return 0;
 }
 
 
-int itc_mirror_count(long long a){
+int itc_mirror_count(long long a){ // 11
 int b, i;
 b = 0;
 if(a > 0){
